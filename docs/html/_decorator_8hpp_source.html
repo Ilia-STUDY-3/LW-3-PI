@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project: Исходный файл Decorator.hpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">My Project
+   </div>
+   <div id="projectbrief">Документация проекта</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Поиск',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('_decorator_8hpp_source.html','',''); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Decorator.hpp</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_decorator_8hpp.html">См. документацию.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="_flow_element_8hpp.html">FlowElement.hpp</a>&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacecom.html">com</a> { <span class="keyword">namespace </span><a class="code hl_namespace" href="namespacecom_1_1lab111.html">lab111</a> { <span class="keyword">namespace </span><a class="code hl_namespace" href="namespacecom_1_1lab111_1_1labwork3.html">labwork3</a> {</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span></div>
+<div class="foldopen" id="foldopen00016" data-start="{" data-end="};">
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html">   16</a></span><span class="keyword">class </span><a class="code hl_function" href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#ab00c34bcf7ee89084f578f77528d6002">Decorator</a> : <span class="keyword">public</span> <a class="code hl_class" href="classcom_1_1lab111_1_1labwork3_1_1_flow_element.html">FlowElement</a> {</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#ab3fca4809d5a80210ecbdbe9cfcdde4d">   18</a></span>    std::shared_ptr&lt;FlowElement&gt; <a class="code hl_variable" href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#ab3fca4809d5a80210ecbdbe9cfcdde4d">component</a>;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#ab00c34bcf7ee89084f578f77528d6002">   24</a></span>    <span class="keyword">explicit</span> <a class="code hl_function" href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#ab00c34bcf7ee89084f578f77528d6002">Decorator</a>(std::shared_ptr&lt;FlowElement&gt; comp) : <a class="code hl_variable" href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#ab3fca4809d5a80210ecbdbe9cfcdde4d">component</a>(std::move(comp)) {}</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#a8029ed2c5a3f1a9c7dd26013c4960280">   30</a></span>    <span class="keywordtype">int</span> <a class="code hl_function" href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#a8029ed2c5a3f1a9c7dd26013c4960280">getId</a>()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#ab3fca4809d5a80210ecbdbe9cfcdde4d">component</a>-&gt;getId(); }</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#a1616181e1cd876a553295733f212f9a8">   36</a></span>    std::string <a class="code hl_function" href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#a1616181e1cd876a553295733f212f9a8">getLabel</a>()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#ab3fca4809d5a80210ecbdbe9cfcdde4d">component</a>-&gt;getLabel(); }</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#a4f56ec409ec28b5df7ba4c01cc06a49f">   42</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#a4f56ec409ec28b5df7ba4c01cc06a49f">addChild</a>(std::shared_ptr&lt;FlowElement&gt; child)<span class="keyword"> override </span>{ <a class="code hl_variable" href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#ab3fca4809d5a80210ecbdbe9cfcdde4d">component</a>-&gt;addChild(std::move(child)); }</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#a0008039609f95764a238dc0d46a5781e">   48</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#a0008039609f95764a238dc0d46a5781e">removeChild</a>(std::shared_ptr&lt;FlowElement&gt; child)<span class="keyword"> override </span>{ <a class="code hl_variable" href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#ab3fca4809d5a80210ecbdbe9cfcdde4d">component</a>-&gt;removeChild(std::move(child)); }</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#a69473f082d3d9e1f9c04e905aec5d5f6">   54</a></span>    std::vector&lt;std::shared_ptr&lt;FlowElement&gt;&gt; <a class="code hl_function" href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#a69473f082d3d9e1f9c04e905aec5d5f6">getChildren</a>()<span class="keyword"> const override </span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#ab3fca4809d5a80210ecbdbe9cfcdde4d">component</a>-&gt;getChildren(); }</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>};</div>
+</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span></div>
+<div class="foldopen" id="foldopen00064" data-start="{" data-end="};">
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="classcom_1_1lab111_1_1labwork3_1_1_logging_decorator.html">   64</a></span><span class="keyword">class </span><a class="code hl_function" href="classcom_1_1lab111_1_1labwork3_1_1_logging_decorator.html#a12c22f422ac92bc4a1b23e1d3d4002ed">LoggingDecorator</a> : <span class="keyword">public</span> <a class="code hl_function" href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#ab00c34bcf7ee89084f578f77528d6002">Decorator</a> {</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="classcom_1_1lab111_1_1labwork3_1_1_logging_decorator.html#a12c22f422ac92bc4a1b23e1d3d4002ed">   70</a></span>    <span class="keyword">explicit</span> <a class="code hl_function" href="classcom_1_1lab111_1_1labwork3_1_1_logging_decorator.html#a12c22f422ac92bc4a1b23e1d3d4002ed">LoggingDecorator</a>(std::shared_ptr&lt;FlowElement&gt; comp) : <a class="code hl_function" href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#ab00c34bcf7ee89084f578f77528d6002">Decorator</a>(std::move(comp)) {}</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span></div>
+<div class="foldopen" id="foldopen00076" data-start="{" data-end="}">
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="classcom_1_1lab111_1_1labwork3_1_1_logging_decorator.html#af0b86d597986f4cf4c31dfe4dbeaf650">   76</a></span>    std::string <a class="code hl_function" href="classcom_1_1lab111_1_1labwork3_1_1_logging_decorator.html#af0b86d597986f4cf4c31dfe4dbeaf650">identify</a>()<span class="keyword"> const override </span>{</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>        std::cout &lt;&lt; <span class="stringliteral">&quot;[LOG] identify() on id=&quot;</span> &lt;&lt; <a class="code hl_variable" href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#ab3fca4809d5a80210ecbdbe9cfcdde4d">component</a>-&gt;getId() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#ab3fca4809d5a80210ecbdbe9cfcdde4d">component</a>-&gt;identify();</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    }</div>
+</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span></div>
+<div class="foldopen" id="foldopen00084" data-start="{" data-end="}">
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno"><a class="line" href="classcom_1_1lab111_1_1labwork3_1_1_logging_decorator.html#a7902ff6086b127b0f70ffefa6b497edb">   84</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classcom_1_1lab111_1_1labwork3_1_1_logging_decorator.html#a7902ff6086b127b0f70ffefa6b497edb">printInfo</a>()<span class="keyword"> const override </span>{</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        std::cout &lt;&lt; <span class="stringliteral">&quot;[LOG] printInfo() on id=&quot;</span> &lt;&lt; <a class="code hl_variable" href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#ab3fca4809d5a80210ecbdbe9cfcdde4d">component</a>-&gt;getId() &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>        <a class="code hl_variable" href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#ab3fca4809d5a80210ecbdbe9cfcdde4d">component</a>-&gt;printInfo();</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    }</div>
+</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>};</div>
+</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>}}}</div>
+<div class="ttc" id="a_flow_element_8hpp_html"><div class="ttname"><a href="_flow_element_8hpp.html">FlowElement.hpp</a></div></div>
+<div class="ttc" id="aclasscom_1_1lab111_1_1labwork3_1_1_decorator_html_a0008039609f95764a238dc0d46a5781e"><div class="ttname"><a href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#a0008039609f95764a238dc0d46a5781e">com::lab111::labwork3::Decorator::removeChild</a></div><div class="ttdeci">void removeChild(std::shared_ptr&lt; FlowElement &gt; child) override</div><div class="ttdoc">Перенаправляє виклик до методу видалення дочірнього елемента.</div><div class="ttdef"><b>Определения</b> <a href="#l00048">Decorator.hpp:48</a></div></div>
+<div class="ttc" id="aclasscom_1_1lab111_1_1labwork3_1_1_decorator_html_a1616181e1cd876a553295733f212f9a8"><div class="ttname"><a href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#a1616181e1cd876a553295733f212f9a8">com::lab111::labwork3::Decorator::getLabel</a></div><div class="ttdeci">std::string getLabel() const override</div><div class="ttdoc">Отримує мітку вкладеного компонента.</div><div class="ttdef"><b>Определения</b> <a href="#l00036">Decorator.hpp:36</a></div></div>
+<div class="ttc" id="aclasscom_1_1lab111_1_1labwork3_1_1_decorator_html_a4f56ec409ec28b5df7ba4c01cc06a49f"><div class="ttname"><a href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#a4f56ec409ec28b5df7ba4c01cc06a49f">com::lab111::labwork3::Decorator::addChild</a></div><div class="ttdeci">void addChild(std::shared_ptr&lt; FlowElement &gt; child) override</div><div class="ttdoc">Перенаправляє виклик до методу додавання дочірнього елемента.</div><div class="ttdef"><b>Определения</b> <a href="#l00042">Decorator.hpp:42</a></div></div>
+<div class="ttc" id="aclasscom_1_1lab111_1_1labwork3_1_1_decorator_html_a69473f082d3d9e1f9c04e905aec5d5f6"><div class="ttname"><a href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#a69473f082d3d9e1f9c04e905aec5d5f6">com::lab111::labwork3::Decorator::getChildren</a></div><div class="ttdeci">std::vector&lt; std::shared_ptr&lt; FlowElement &gt; &gt; getChildren() const override</div><div class="ttdoc">Перенаправляє виклик до методу отримання дочірніх елементів.</div><div class="ttdef"><b>Определения</b> <a href="#l00054">Decorator.hpp:54</a></div></div>
+<div class="ttc" id="aclasscom_1_1lab111_1_1labwork3_1_1_decorator_html_a8029ed2c5a3f1a9c7dd26013c4960280"><div class="ttname"><a href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#a8029ed2c5a3f1a9c7dd26013c4960280">com::lab111::labwork3::Decorator::getId</a></div><div class="ttdeci">int getId() const override</div><div class="ttdoc">Отримує ідентифікатор вкладеного компонента.</div><div class="ttdef"><b>Определения</b> <a href="#l00030">Decorator.hpp:30</a></div></div>
+<div class="ttc" id="aclasscom_1_1lab111_1_1labwork3_1_1_decorator_html_ab00c34bcf7ee89084f578f77528d6002"><div class="ttname"><a href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#ab00c34bcf7ee89084f578f77528d6002">com::lab111::labwork3::Decorator::Decorator</a></div><div class="ttdeci">Decorator(std::shared_ptr&lt; FlowElement &gt; comp)</div><div class="ttdoc">Конструктор для Decorator.</div><div class="ttdef"><b>Определения</b> <a href="#l00024">Decorator.hpp:24</a></div></div>
+<div class="ttc" id="aclasscom_1_1lab111_1_1labwork3_1_1_decorator_html_ab3fca4809d5a80210ecbdbe9cfcdde4d"><div class="ttname"><a href="classcom_1_1lab111_1_1labwork3_1_1_decorator.html#ab3fca4809d5a80210ecbdbe9cfcdde4d">com::lab111::labwork3::Decorator::component</a></div><div class="ttdeci">std::shared_ptr&lt; FlowElement &gt; component</div><div class="ttdef"><b>Определения</b> <a href="#l00018">Decorator.hpp:18</a></div></div>
+<div class="ttc" id="aclasscom_1_1lab111_1_1labwork3_1_1_flow_element_html"><div class="ttname"><a href="classcom_1_1lab111_1_1labwork3_1_1_flow_element.html">com::lab111::labwork3::FlowElement</a></div><div class="ttdoc">Представляє абстрактний базовий інтерфейс (Component) для всіх елементів блок-схеми.</div><div class="ttdef"><b>Определения</b> <a href="_flow_element_8hpp_source.html#l00017">FlowElement.hpp:17</a></div></div>
+<div class="ttc" id="aclasscom_1_1lab111_1_1labwork3_1_1_logging_decorator_html_a12c22f422ac92bc4a1b23e1d3d4002ed"><div class="ttname"><a href="classcom_1_1lab111_1_1labwork3_1_1_logging_decorator.html#a12c22f422ac92bc4a1b23e1d3d4002ed">com::lab111::labwork3::LoggingDecorator::LoggingDecorator</a></div><div class="ttdeci">LoggingDecorator(std::shared_ptr&lt; FlowElement &gt; comp)</div><div class="ttdoc">Конструктор для LoggingDecorator.</div><div class="ttdef"><b>Определения</b> <a href="#l00070">Decorator.hpp:70</a></div></div>
+<div class="ttc" id="aclasscom_1_1lab111_1_1labwork3_1_1_logging_decorator_html_a7902ff6086b127b0f70ffefa6b497edb"><div class="ttname"><a href="classcom_1_1lab111_1_1labwork3_1_1_logging_decorator.html#a7902ff6086b127b0f70ffefa6b497edb">com::lab111::labwork3::LoggingDecorator::printInfo</a></div><div class="ttdeci">void printInfo() const override</div><div class="ttdoc">Виводить лог-повідомлення, а потім викликає метод printInfo() вкладеного компонента.</div><div class="ttdef"><b>Определения</b> <a href="#l00084">Decorator.hpp:84</a></div></div>
+<div class="ttc" id="aclasscom_1_1lab111_1_1labwork3_1_1_logging_decorator_html_af0b86d597986f4cf4c31dfe4dbeaf650"><div class="ttname"><a href="classcom_1_1lab111_1_1labwork3_1_1_logging_decorator.html#af0b86d597986f4cf4c31dfe4dbeaf650">com::lab111::labwork3::LoggingDecorator::identify</a></div><div class="ttdeci">std::string identify() const override</div><div class="ttdoc">Виводить лог-повідомлення, а потім викликає метод identify() вкладеного компонента.</div><div class="ttdef"><b>Определения</b> <a href="#l00076">Decorator.hpp:76</a></div></div>
+<div class="ttc" id="anamespacecom_1_1lab111_1_1labwork3_html"><div class="ttname"><a href="namespacecom_1_1lab111_1_1labwork3.html">com::lab111::labwork3</a></div><div class="ttdef"><b>Определения</b> <a href="_base_block_8hpp_source.html#l00005">BaseBlock.hpp:5</a></div></div>
+<div class="ttc" id="anamespacecom_1_1lab111_html"><div class="ttname"><a href="namespacecom_1_1lab111.html">com::lab111</a></div><div class="ttdef"><b>Определения</b> <a href="_base_block_8hpp_source.html#l00005">BaseBlock.hpp:5</a></div></div>
+<div class="ttc" id="anamespacecom_html"><div class="ttname"><a href="namespacecom.html">com</a></div><div class="ttdef"><b>Определения</b> <a href="_base_block_8hpp_source.html#l00005">BaseBlock.hpp:5</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a href="_decorator_8hpp.html">Decorator.hpp</a></li>
+    <li class="footer">Документация по My Project. Последние изменения: <span class="timestamp"></span>. Создано системой <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

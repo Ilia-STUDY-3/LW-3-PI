@@ -1,0 +1,11 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,78,55,104"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1lab111_1_1labwork3_1_1_flow_chart.html#a4809890dcee84f90337d44b9b5d2d4b1" title="Додає елемент блок&#45;схеми до колекції." alt="" coords="115,5,266,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="54,78,102,57,118,50,120,55,104,61,56,82"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1lab111_1_1labwork3_1_1_flow_chart.html#a28d62c9989bfcc069a95e01f4494d0bf" title="Виводить інформацію про всі елементи в колекції." alt="" coords="115,71,266,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="55,88,99,88,99,94,55,94"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1lab111_1_1labwork3_1_1_flow_chart.html#ac9290b6b4d15c691f7d0d37741bae32e" title="Рекурсивно виводить структуру блок&#45;схеми, починаючи з кореневого елемента." alt="" coords="103,136,278,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="56,100,104,121,120,127,118,132,102,125,54,104"/>
+<area shape="rect" id="Node000005" href="$classcom_1_1lab111_1_1labwork3_1_1_flow_chart.html#a16e016e255beeb1f4a677dd776617534" title="Отримує елемент блок&#45;схеми за його унікальним ідентифікатором." alt="" coords="326,136,477,177"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="278,154,310,154,310,159,278,159"/>
+</map>

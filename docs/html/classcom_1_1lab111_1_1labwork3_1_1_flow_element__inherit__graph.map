@@ -1,0 +1,23 @@
+<map id="com::lab111::labwork3::FlowElement" name="com::lab111::labwork3::FlowElement">
+<area shape="rect" id="Node000001" title="Представляє абстрактний базовий інтерфейс (Component) для всіх елементів блок&#45;схеми." alt="" coords="5,283,157,323"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1lab111_1_1labwork3_1_1_base_block.html" title="Представляє абстрактний базовий клас для всіх &quot;листових&quot; вузлів у блок&#45;схемі." alt="" coords="205,152,356,193"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,272,246,191,249,195,128,276"/>
+<area shape="rect" id="Node000008" href="$classcom_1_1lab111_1_1labwork3_1_1_composite_block.html" title="Представляє композитний блок, який може містити інші елементи блок&#45;схеми." alt="" coords="205,249,356,290"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="172,285,204,280,205,285,173,290"/>
+<area shape="rect" id="Node000009" href="$classcom_1_1lab111_1_1labwork3_1_1_decorator.html" title="Абстрактний базовий клас для декораторів у патерні Decorator." alt="" coords="205,315,356,355"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="173,315,205,320,204,325,172,320"/>
+<area shape="rect" id="Node000011" href="$classcom_1_1lab111_1_1labwork3_1_1_lazy_process_proxy.html" title="Клас, що виступає в ролі віртуального проксі для ProcessBlock." alt="" coords="205,380,356,421"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="135,328,206,365,232,377,230,382,203,369,132,333"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1lab111_1_1labwork3_1_1_decision_block.html" title="Представляє блок прийняття рішення (умова)." alt="" coords="404,5,555,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="308,139,351,97,403,57,425,44,427,49,405,61,354,101,312,143"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1lab111_1_1labwork3_1_1_end_block.html" title="Представляє кінцевий блок у блок&#45;схемі." alt="" coords="404,71,555,111"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="345,143,427,109,429,114,347,148"/>
+<area shape="rect" id="Node000005" href="$classcom_1_1lab111_1_1labwork3_1_1_input_output_block.html" title="Представляє блок введення/виведення." alt="" coords="404,136,555,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="371,162,403,160,404,165,372,168"/>
+<area shape="rect" id="Node000006" href="$classcom_1_1lab111_1_1labwork3_1_1_process_block.html" title="Представляє блок обробки (дії)." alt="" coords="404,201,555,242"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="372,192,404,200,403,206,371,197"/>
+<area shape="rect" id="Node000007" href="$classcom_1_1lab111_1_1labwork3_1_1_start_block.html" title="Представляє початковий блок у блок&#45;схемі." alt="" coords="404,267,555,307"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="324,199,405,251,430,264,427,268,403,256,321,204"/>
+<area shape="rect" id="Node000010" href="$classcom_1_1lab111_1_1labwork3_1_1_logging_decorator.html" title="Конкретний декоратор, що додає функцію логування до операцій." alt="" coords="404,332,555,373"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="372,340,404,343,403,348,371,346"/>
+</map>

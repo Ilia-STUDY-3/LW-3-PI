@@ -1,0 +1,7 @@
+<map id="com::lab111::labwork3::LazyProcessProxy::ensure" name="com::lab111::labwork3::LazyProcessProxy::ensure">
+<area shape="rect" id="Node000001" title="Забезпечує, що реальний об&#39;єкт ProcessBlock створений." alt="" coords="248,39,434,79"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1lab111_1_1labwork3_1_1_lazy_process_proxy.html#a613ae3b62f2cb2c83ca085453749e023" title="Перенаправляє виклик до методу identify() реального об&#39;єкта після ініціалізації." alt="" coords="8,5,197,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="232,46,197,42,198,36,232,41"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1lab111_1_1labwork3_1_1_lazy_process_proxy.html#ad77e038e9cf2175c4552587d981467a9" title="Перенаправляє виклик до методу printInfo() реального об&#39;єкта після ініціалізації." alt="" coords="5,71,200,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="232,76,201,81,200,75,232,71"/>
+</map>

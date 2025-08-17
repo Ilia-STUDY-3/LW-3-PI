@@ -1,0 +1,5 @@
+<map id="com::lab111::labwork3::DecisionBlock::DecisionBlock" name="com::lab111::labwork3::DecisionBlock::DecisionBlock">
+<area shape="rect" id="Node000001" title="Конструктор для блоку рішення." alt="" coords="5,5,211,46"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1lab111_1_1labwork3_1_1_base_block.html#a3153ac56c8c4ad76e0df4a3f18db0ff0" title="Конструює новий об&#39;єкт BaseBlock." alt="" coords="259,5,422,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="211,23,243,23,243,28,211,28"/>
+</map>

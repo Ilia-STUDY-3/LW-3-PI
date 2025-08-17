@@ -1,0 +1,399 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.14.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project: Класс com::lab111::labwork3::FlowChart</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">My Project
+   </div>
+   <div id="projectbrief">Документация проекта</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.14.0 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+</script>
+<script type="text/javascript">
+$(function() { codefold.init(); });
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Поиск',true);
+  $(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(function(){initNavTree('classcom_1_1lab111_1_1labwork3_1_1_flow_chart.html','','classcom_1_1lab111_1_1labwork3_1_1_flow_chart-members'); });
+</script>
+<div id="container">
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Класс com::lab111::labwork3::FlowChart</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Клас, що виступає "клієнтом" патерну Composite, керуючи колекцією елементів блок-схеми.  
+ <a href="#details">Подробнее...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_flow_chart_8hpp_source.html">FlowChart.hpp</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:a4809890dcee84f90337d44b9b5d2d4b1" id="r_a4809890dcee84f90337d44b9b5d2d4b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4809890dcee84f90337d44b9b5d2d4b1">add</a> (const std::shared_ptr&lt; <a class="el" href="classcom_1_1lab111_1_1labwork3_1_1_flow_element.html">FlowElement</a> &gt; &amp;node)</td></tr>
+<tr class="memdesc:a4809890dcee84f90337d44b9b5d2d4b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Додає елемент блок-схеми до колекції.  <br /></td></tr>
+<tr class="memitem:a16e016e255beeb1f4a677dd776617534" id="r_a16e016e255beeb1f4a677dd776617534"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classcom_1_1lab111_1_1labwork3_1_1_flow_element.html">FlowElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16e016e255beeb1f4a677dd776617534">get</a> (int id) const</td></tr>
+<tr class="memdesc:a16e016e255beeb1f4a677dd776617534"><td class="mdescLeft">&#160;</td><td class="mdescRight">Отримує елемент блок-схеми за його унікальним ідентифікатором.  <br /></td></tr>
+<tr class="memitem:a28d62c9989bfcc069a95e01f4494d0bf" id="r_a28d62c9989bfcc069a95e01f4494d0bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a28d62c9989bfcc069a95e01f4494d0bf">printAll</a> () const</td></tr>
+<tr class="memdesc:a28d62c9989bfcc069a95e01f4494d0bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Виводить інформацію про всі елементи в колекції.  <br /></td></tr>
+<tr class="memitem:ac9290b6b4d15c691f7d0d37741bae32e" id="r_ac9290b6b4d15c691f7d0d37741bae32e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac9290b6b4d15c691f7d0d37741bae32e">printStructure</a> (int rootId) const</td></tr>
+<tr class="memdesc:ac9290b6b4d15c691f7d0d37741bae32e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Рекурсивно виводить структуру блок-схеми, починаючи з кореневого елемента.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Закрытые данные</h2></td></tr>
+<tr class="memitem:a6224e538e606cfebf084cf20a49cebc1" id="r_a6224e538e606cfebf084cf20a49cebc1"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; int, std::shared_ptr&lt; <a class="el" href="classcom_1_1lab111_1_1labwork3_1_1_flow_element.html">FlowElement</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6224e538e606cfebf084cf20a49cebc1">nodes</a></td></tr>
+</table>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Клас, що виступає "клієнтом" патерну Composite, керуючи колекцією елементів блок-схеми. </p>
+<p>Цей клас відповідає за додавання, отримання та обробку всіх елементів блок-схеми, незалежно від того, чи є вони простими блоками, чи композитними. </p>
+
+<p class="definition">См. определение в файле <a class="el" href="_flow_chart_8hpp_source.html">FlowChart.hpp</a> строка <a class="el" href="_flow_chart_8hpp_source.html#l00016">16</a></p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Методы</h2>
+<a id="a4809890dcee84f90337d44b9b5d2d4b1" name="a4809890dcee84f90337d44b9b5d2d4b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4809890dcee84f90337d44b9b5d2d4b1">&#9670;&#160;</a></span>add()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com::lab111::labwork3::FlowChart::add </td>
+          <td>(</td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classcom_1_1lab111_1_1labwork3_1_1_flow_element.html">FlowElement</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>node</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Додає елемент блок-схеми до колекції. </p>
+<p>Використовує ідентифікатор елемента як ключ для зберігання у map. </p><dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">node</td><td>Вказівник на об'єкт <a class="el" href="classcom_1_1lab111_1_1labwork3_1_1_flow_element.html" title="Представляє абстрактний базовий інтерфейс (Component) для всіх елементів блок-схеми.">FlowElement</a>, який потрібно додати. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">См. определение в файле <a class="el" href="_flow_chart_8hpp_source.html">FlowChart.hpp</a> строка <a class="el" href="_flow_chart_8hpp_source.html#l00026">26</a></p>
+<div class="fragment"><div class="line"><span class="lineno">   26</span>                                                     {</div>
+<div class="line"><span class="lineno">   27</span>        <a class="code hl_variable" href="#a6224e538e606cfebf084cf20a49cebc1">nodes</a>[node-&gt;getId()] = node;</div>
+<div class="line"><span class="lineno">   28</span>    }</div>
+<div class="ttc" id="aclasscom_1_1lab111_1_1labwork3_1_1_flow_chart_html_a6224e538e606cfebf084cf20a49cebc1"><div class="ttname"><a href="#a6224e538e606cfebf084cf20a49cebc1">com::lab111::labwork3::FlowChart::nodes</a></div><div class="ttdeci">std::unordered_map&lt; int, std::shared_ptr&lt; FlowElement &gt; &gt; nodes</div><div class="ttdef"><b>Определения</b> <a href="_flow_chart_8hpp_source.html#l00018">FlowChart.hpp:18</a></div></div>
+</div><!-- fragment -->
+<p class="reference">Перекрестные ссылки <a class="el" href="_flow_chart_8hpp_source.html#l00018">nodes</a>.</p>
+
+<p class="reference">Используется в <a class="el" href="main_8cpp_source.html#l00010">main()</a>.</p>
+<div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1lab111_1_1labwork3_1_1_flow_chart_a4809890dcee84f90337d44b9b5d2d4b1_icgraph.png" border="0" usemap="#aclasscom_1_1lab111_1_1labwork3_1_1_flow_chart_a4809890dcee84f90337d44b9b5d2d4b1_icgraph" loading="lazy" alt=""/></div>
+<map name="aclasscom_1_1lab111_1_1labwork3_1_1_flow_chart_a4809890dcee84f90337d44b9b5d2d4b1_icgraph" id="aclasscom_1_1lab111_1_1labwork3_1_1_flow_chart_a4809890dcee84f90337d44b9b5d2d4b1_icgraph">
+<area shape="rect" title="Додає елемент блок&#45;схеми до колекції." alt="" coords="103,5,254,46"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,13,55,38"/>
+<area shape="poly" title=" " alt="" coords="87,28,55,28,55,23,87,23"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a16e016e255beeb1f4a677dd776617534" name="a16e016e255beeb1f4a677dd776617534"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16e016e255beeb1f4a677dd776617534">&#9670;&#160;</a></span>get()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classcom_1_1lab111_1_1labwork3_1_1_flow_element.html">FlowElement</a> &gt; com::lab111::labwork3::FlowChart::get </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Отримує елемент блок-схеми за його унікальним ідентифікатором. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>Унікальний ідентифікатор елемента. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>Вказівник на знайдений елемент, або nullptr, якщо елемент не знайдено. </dd></dl>
+
+<p class="definition">См. определение в файле <a class="el" href="_flow_chart_8hpp_source.html">FlowChart.hpp</a> строка <a class="el" href="_flow_chart_8hpp_source.html#l00035">35</a></p>
+<div class="fragment"><div class="line"><span class="lineno">   35</span>                                                 {</div>
+<div class="line"><span class="lineno">   36</span>        <span class="keyword">auto</span> it = <a class="code hl_variable" href="#a6224e538e606cfebf084cf20a49cebc1">nodes</a>.find(<span class="keywordtype">id</span>);</div>
+<div class="line"><span class="lineno">   37</span>        <span class="keywordflow">if</span> (it != <a class="code hl_variable" href="#a6224e538e606cfebf084cf20a49cebc1">nodes</a>.end()) {</div>
+<div class="line"><span class="lineno">   38</span>            <span class="keywordflow">return</span> it-&gt;second;</div>
+<div class="line"><span class="lineno">   39</span>        }</div>
+<div class="line"><span class="lineno">   40</span>        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   41</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">Перекрестные ссылки <a class="el" href="_flow_chart_8hpp_source.html#l00018">nodes</a>.</p>
+
+<p class="reference">Используется в <a class="el" href="_flow_chart_8hpp_source.html#l00060">printStructure()</a>.</p>
+<div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1lab111_1_1labwork3_1_1_flow_chart_a16e016e255beeb1f4a677dd776617534_icgraph.png" border="0" usemap="#aclasscom_1_1lab111_1_1labwork3_1_1_flow_chart_a16e016e255beeb1f4a677dd776617534_icgraph" loading="lazy" alt=""/></div>
+<map name="aclasscom_1_1lab111_1_1labwork3_1_1_flow_chart_a16e016e255beeb1f4a677dd776617534_icgraph" id="aclasscom_1_1lab111_1_1labwork3_1_1_flow_chart_a16e016e255beeb1f4a677dd776617534_icgraph">
+<area shape="rect" title="Отримує елемент блок&#45;схеми за його унікальним ідентифікатором." alt="" coords="326,5,477,46"/>
+<area shape="rect" href="classcom_1_1lab111_1_1labwork3_1_1_flow_chart.html#ac9290b6b4d15c691f7d0d37741bae32e" title="Рекурсивно виводить структуру блок&#45;схеми, починаючи з кореневого елемента." alt="" coords="103,5,278,46"/>
+<area shape="poly" title=" " alt="" coords="310,28,278,28,278,23,310,23"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,13,55,38"/>
+<area shape="poly" title=" " alt="" coords="87,28,55,28,55,23,87,23"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a28d62c9989bfcc069a95e01f4494d0bf" name="a28d62c9989bfcc069a95e01f4494d0bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28d62c9989bfcc069a95e01f4494d0bf">&#9670;&#160;</a></span>printAll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com::lab111::labwork3::FlowChart::printAll </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Виводить інформацію про всі елементи в колекції. </p>
+<p>Обходить всі вузли в map та викликає їхній метод printInfo(). </p>
+
+<p class="definition">См. определение в файле <a class="el" href="_flow_chart_8hpp_source.html">FlowChart.hpp</a> строка <a class="el" href="_flow_chart_8hpp_source.html#l00048">48</a></p>
+<div class="fragment"><div class="line"><span class="lineno">   48</span>                          {</div>
+<div class="line"><span class="lineno">   49</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> &amp;kv : <a class="code hl_variable" href="#a6224e538e606cfebf084cf20a49cebc1">nodes</a>) {</div>
+<div class="line"><span class="lineno">   50</span>            <span class="keywordflow">if</span> (kv.second) {</div>
+<div class="line"><span class="lineno">   51</span>                kv.second-&gt;printInfo();</div>
+<div class="line"><span class="lineno">   52</span>            }</div>
+<div class="line"><span class="lineno">   53</span>        }</div>
+<div class="line"><span class="lineno">   54</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">Перекрестные ссылки <a class="el" href="_flow_chart_8hpp_source.html#l00018">nodes</a>.</p>
+
+<p class="reference">Используется в <a class="el" href="main_8cpp_source.html#l00010">main()</a>.</p>
+<div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1lab111_1_1labwork3_1_1_flow_chart_a28d62c9989bfcc069a95e01f4494d0bf_icgraph.png" border="0" usemap="#aclasscom_1_1lab111_1_1labwork3_1_1_flow_chart_a28d62c9989bfcc069a95e01f4494d0bf_icgraph" loading="lazy" alt=""/></div>
+<map name="aclasscom_1_1lab111_1_1labwork3_1_1_flow_chart_a28d62c9989bfcc069a95e01f4494d0bf_icgraph" id="aclasscom_1_1lab111_1_1labwork3_1_1_flow_chart_a28d62c9989bfcc069a95e01f4494d0bf_icgraph">
+<area shape="rect" title="Виводить інформацію про всі елементи в колекції." alt="" coords="103,5,254,46"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,13,55,38"/>
+<area shape="poly" title=" " alt="" coords="87,28,55,28,55,23,87,23"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac9290b6b4d15c691f7d0d37741bae32e" name="ac9290b6b4d15c691f7d0d37741bae32e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9290b6b4d15c691f7d0d37741bae32e">&#9670;&#160;</a></span>printStructure()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void com::lab111::labwork3::FlowChart::printStructure </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>rootId</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Рекурсивно виводить структуру блок-схеми, починаючи з кореневого елемента. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rootId</td><td>Ідентифікатор кореневого елемента, з якого починається виведення. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">См. определение в файле <a class="el" href="_flow_chart_8hpp_source.html">FlowChart.hpp</a> строка <a class="el" href="_flow_chart_8hpp_source.html#l00060">60</a></p>
+<div class="fragment"><div class="line"><span class="lineno">   60</span>                                          {</div>
+<div class="line"><span class="lineno">   61</span>        <span class="keyword">auto</span> root = <a class="code hl_function" href="#a16e016e255beeb1f4a677dd776617534">get</a>(rootId);</div>
+<div class="line"><span class="lineno">   62</span>        <span class="keywordflow">if</span> (root) {</div>
+<div class="line"><span class="lineno">   63</span>            root-&gt;traversePrint();</div>
+<div class="line"><span class="lineno">   64</span>        }</div>
+<div class="line"><span class="lineno">   65</span>    }</div>
+<div class="ttc" id="aclasscom_1_1lab111_1_1labwork3_1_1_flow_chart_html_a16e016e255beeb1f4a677dd776617534"><div class="ttname"><a href="#a16e016e255beeb1f4a677dd776617534">com::lab111::labwork3::FlowChart::get</a></div><div class="ttdeci">std::shared_ptr&lt; FlowElement &gt; get(int id) const</div><div class="ttdoc">Отримує елемент блок-схеми за його унікальним ідентифікатором.</div><div class="ttdef"><b>Определения</b> <a href="_flow_chart_8hpp_source.html#l00035">FlowChart.hpp:35</a></div></div>
+</div><!-- fragment -->
+<p class="reference">Перекрестные ссылки <a class="el" href="_flow_chart_8hpp_source.html#l00035">get()</a>.</p>
+
+<p class="reference">Используется в <a class="el" href="main_8cpp_source.html#l00010">main()</a>.</p>
+<div class="dynheader">
+Граф вызовов:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1lab111_1_1labwork3_1_1_flow_chart_ac9290b6b4d15c691f7d0d37741bae32e_cgraph.png" border="0" usemap="#aclasscom_1_1lab111_1_1labwork3_1_1_flow_chart_ac9290b6b4d15c691f7d0d37741bae32e_cgraph" loading="lazy" alt=""/></div>
+<map name="aclasscom_1_1lab111_1_1labwork3_1_1_flow_chart_ac9290b6b4d15c691f7d0d37741bae32e_cgraph" id="aclasscom_1_1lab111_1_1labwork3_1_1_flow_chart_ac9290b6b4d15c691f7d0d37741bae32e_cgraph">
+<area shape="rect" title="Рекурсивно виводить структуру блок&#45;схеми, починаючи з кореневого елемента." alt="" coords="5,5,181,46"/>
+<area shape="rect" href="classcom_1_1lab111_1_1labwork3_1_1_flow_chart.html#a16e016e255beeb1f4a677dd776617534" title="Отримує елемент блок&#45;схеми за його унікальним ідентифікатором." alt="" coords="229,5,380,46"/>
+<area shape="poly" title=" " alt="" coords="181,23,213,23,213,28,181,28"/>
+</map>
+</div>
+<div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcom_1_1lab111_1_1labwork3_1_1_flow_chart_ac9290b6b4d15c691f7d0d37741bae32e_icgraph.png" border="0" usemap="#aclasscom_1_1lab111_1_1labwork3_1_1_flow_chart_ac9290b6b4d15c691f7d0d37741bae32e_icgraph" loading="lazy" alt=""/></div>
+<map name="aclasscom_1_1lab111_1_1labwork3_1_1_flow_chart_ac9290b6b4d15c691f7d0d37741bae32e_icgraph" id="aclasscom_1_1lab111_1_1labwork3_1_1_flow_chart_ac9290b6b4d15c691f7d0d37741bae32e_icgraph">
+<area shape="rect" title="Рекурсивно виводить структуру блок&#45;схеми, починаючи з кореневого елемента." alt="" coords="103,5,278,46"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,13,55,38"/>
+<area shape="poly" title=" " alt="" coords="87,28,55,28,55,23,87,23"/>
+</map>
+</div>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Данные класса</h2>
+<a id="a6224e538e606cfebf084cf20a49cebc1" name="a6224e538e606cfebf084cf20a49cebc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6224e538e606cfebf084cf20a49cebc1">&#9670;&#160;</a></span>nodes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_map&lt;int, std::shared_ptr&lt;<a class="el" href="classcom_1_1lab111_1_1labwork3_1_1_flow_element.html">FlowElement</a>&gt; &gt; com::lab111::labwork3::FlowChart::nodes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">См. определение в файле <a class="el" href="_flow_chart_8hpp_source.html">FlowChart.hpp</a> строка <a class="el" href="_flow_chart_8hpp_source.html#l00018">18</a></p>
+
+<p class="reference">Используется в <a class="el" href="_flow_chart_8hpp_source.html#l00026">add()</a>, <a class="el" href="_flow_chart_8hpp_source.html#l00035">get()</a> и <a class="el" href="_flow_chart_8hpp_source.html#l00048">printAll()</a>.</p>
+
+</div>
+</div>
+<hr/>Объявления и описания членов класса находятся в файле:<ul>
+<li><a class="el" href="_flow_chart_8hpp_source.html">FlowChart.hpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div id="page-nav" class="page-nav-panel">
+<div id="page-nav-resize-handle"></div>
+<div id="page-nav-tree">
+<div id="page-nav-contents">
+</div><!-- page-nav-contents -->
+</div><!-- page-nav-tree -->
+</div><!-- page-nav -->
+</div><!-- container -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a href="namespacecom.html">com</a></li><li class="navelem"><a href="namespacecom_1_1lab111.html">lab111</a></li><li class="navelem"><a href="namespacecom_1_1lab111_1_1labwork3.html">labwork3</a></li><li class="navelem"><a href="classcom_1_1lab111_1_1labwork3_1_1_flow_chart.html">FlowChart</a></li>
+    <li class="footer">Документация по My Project. Последние изменения: <span class="timestamp"></span>. Создано системой <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
+  </ul>
+</div>
+</body>
+</html>

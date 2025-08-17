@@ -1,0 +1,58 @@
+# ----------------- Общие настройки -----------------
+PROJECT_NAME           = "My Project"
+PROJECT_BRIEF          = "Документация проекта"
+OUTPUT_DIRECTORY       = docs
+
+# ----------------- Входные файлы -------------------
+INPUT                  = src
+FILE_PATTERNS          = *.h *.hpp *.cpp
+RECURSIVE              = YES
+
+# ----------------- Язык и стиль --------------------
+OUTPUT_LANGUAGE        = Russian
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+EXTRACT_LOCAL_CLASSES  = YES
+EXTRACT_ANON_NSPACES   = YES
+
+# ----------------- Форматы вывода ------------------
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+GENERATE_XML           = NO
+GENERATE_RTF           = NO
+GENERATE_MAN           = NO
+GENERATE_DOCSET        = NO
+
+# ----------------- HTML ----------------------------
+HTML_OUTPUT            = html
+HTML_TIMESTAMP         = YES
+SEARCHENGINE           = YES
+DISABLE_INDEX          = NO
+
+# ----------------- Диаграммы -----------------------
+HAVE_DOT               = YES
+DOT_NUM_THREADS        = 4
+CLASS_DIAGRAMS         = YES
+DOT_IMAGE_FORMAT       = png
+INTERACTIVE_SVG        = NO
+DOT_GRAPH_MAX_NODES    = 100
+MAX_DOT_GRAPH_DEPTH    = 0
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+INCLUDE_GRAPH          = YES
+INCLUDED_BY_GRAPH      = YES
+DOT_TRANSPARENT        = YES
+
+# ----------------- Красота -------------------------
+FULL_PATH_NAMES        = NO
+SHOW_INCLUDE_FILES     = YES
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = YES
+REFERENCED_BY_RELATION = YES
+REFERENCES_RELATION    = YES
+VERBATIM_HEADERS       = YES
+
+# ----------------- Прочее --------------------------
+WARN_IF_UNDOCUMENTED   = YES
+QUIET                  = NO

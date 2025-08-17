@@ -1,0 +1,5 @@
+<map id="com::lab111::labwork3::FlowElement::identify" name="com::lab111::labwork3::FlowElement::identify">
+<area shape="rect" id="Node000001" title="Повертає ідентифікаційний рядок для елемента." alt="" coords="241,5,396,46"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1lab111_1_1labwork3_1_1_flow_element.html#ace07ec2d4385b42a1b46838c1774ee96" title="Рекурсивно обходить і виводить структуру блок&#45;схеми." alt="" coords="5,5,193,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="225,28,193,28,193,23,225,23"/>
+</map>

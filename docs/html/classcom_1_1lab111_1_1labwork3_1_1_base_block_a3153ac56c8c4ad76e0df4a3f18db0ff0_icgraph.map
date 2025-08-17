@@ -1,0 +1,13 @@
+<map id="com::lab111::labwork3::BaseBlock::BaseBlock" name="com::lab111::labwork3::BaseBlock::BaseBlock">
+<area shape="rect" id="Node000001" title="Конструює новий об&#39;єкт BaseBlock." alt="" coords="260,143,423,183"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1lab111_1_1labwork3_1_1_decision_block.html#a97a8536fa0fec7ed6b5be0e735f51a74" title="Конструктор для блоку рішення." alt="" coords="6,5,211,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="307,134,263,96,210,61,183,49,186,44,213,57,266,92,310,130"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1lab111_1_1labwork3_1_1_end_block.html#ae56bdf69354823709d0bf4d485a8d095" title="Конструктор для кінцевого блоку." alt="" coords="33,71,184,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="258,140,176,114,177,109,260,135"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1lab111_1_1labwork3_1_1_input_output_block.html#a9b0169d2631bb635b520c6c0d85c2ecf" title="Конструктор для блоку введення/виведення." alt="" coords="5,135,212,191"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="244,166,212,166,212,160,244,160"/>
+<area shape="rect" id="Node000005" href="$classcom_1_1lab111_1_1labwork3_1_1_process_block.html#a889328eea9c44da0fce54a0b1f711d48" title="Конструктор для блоку обробки." alt="" coords="9,215,208,255"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="260,191,177,217,176,212,258,186"/>
+<area shape="rect" id="Node000006" href="$classcom_1_1lab111_1_1labwork3_1_1_start_block.html#a384c76020ce231c999f7fc510d659687" title="Конструктор для початкового блоку." alt="" coords="29,280,188,321"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="310,196,266,234,213,269,186,282,183,277,210,265,263,230,307,192"/>
+</map>
